@@ -27,3 +27,9 @@ using notebooks (locally and on Google Colab for GPU access).
    uvicorn app.main:app --reload
    ```
 5. Open http://localhost:8000 in a browser and start chatting.
+
+## Finetuning experiments (Phase 2)
+
+See [notebooks/](notebooks/README.md) for LoRA finetuning experiments on
+Trinity using Unsloth, plain PEFT/TRL, and Axolotl, designed to run in Google
+Colab (GPU required).
