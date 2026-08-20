@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "SF Mono", "Fira Code", Consolas, monospace;
+  font-family: "Share Tech Mono", "SF Mono", Consolas, monospace;
   background: radial-gradient(circle at top, #111a22 0%, var(--bg) 60%);
   color: var(--text);
   margin: 0;
@@ -39,16 +39,18 @@ body {
 }
 
 #app-header .logo {
-  font-size: 2rem;
+  font-size: 2.4rem;
   color: var(--accent);
   text-shadow: 0 0 12px var(--accent-dim);
 }
 
 #app-header h1 {
   margin: 0;
-  font-size: 1.4rem;
+  font-family: "VT323", "Share Tech Mono", monospace;
+  font-size: 2.4rem;
   letter-spacing: 0.08em;
   color: var(--accent);
+  text-shadow: 0 0 10px var(--accent-dim);
 }
 
 #app-header .subtitle {
