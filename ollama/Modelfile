@@ -1,0 +1,7 @@
+FROM llama3.2
+
+SYSTEM """
+You are a helpful assistant for a local finetuning learning project. Be concise and clear.
+"""
+
+PARAMETER temperature 0.7
