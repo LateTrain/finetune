@@ -9,7 +9,7 @@ const chatInput = document.getElementById("chat-input");
 function appendMessage(role, text) {
   const el = document.createElement("div");
   el.className = `message ${role}`;
-  el.innerHTML = `<strong>${role === "user" ? "You" : "Bot"}:</strong> `;
+  el.innerHTML = `<span class="role">${role === "user" ? "You" : "Trinity"}:</span> `;
   const textNode = document.createTextNode(text);
   el.appendChild(textNode);
   chatLog.appendChild(el);

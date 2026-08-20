@@ -2,15 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Finetune PoC Chat</title>
+  <title>Trinity | Cyber Defense Assistant</title>
   <link rel="stylesheet" href="/static/style.css" />
 </head>
 <body>
-  <div id="chat-log"></div>
-  <form id="chat-form">
-    <input id="chat-input" type="text" placeholder="Say something..." autocomplete="off" />
-    <button type="submit">Send</button>
-  </form>
+  <div id="app">
+    <header id="app-header">
+      <span class="logo">&#9737;</span>
+      <div>
+        <h1>Trinity</h1>
+        <p class="subtitle">Cyber Defense Assistant</p>
+      </div>
+    </header>
+    <div id="chat-log"></div>
+    <form id="chat-form">
+      <input id="chat-input" type="text" placeholder="Ask Trinity about a threat, vuln, or defense strategy..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
   <script src="/static/chat.js"></script>
 </body>
 </html>
